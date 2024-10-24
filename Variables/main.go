@@ -24,4 +24,10 @@ func main() {
 	var floatNum float32 = 255.45265525;
 	fmt.Println(floatNum);
 	fmt.Printf("The type of the variable floatNum is: %T\n", floatNum);
+
+	//Some aliases
+	var number int;
+	fmt.Println(number); // It will give 0
+	fmt.Printf("The type of the variable number is: %T\n", number);
+
 }
