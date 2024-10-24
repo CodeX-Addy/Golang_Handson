@@ -14,9 +14,14 @@ func main() {
 	fmt.Println(check);
 	fmt.Printf("The type of the variable check is: %T\n", check);
 
-	//Integer types
+	//Integer type
 	//We can simply use int as well
 	var num uint8 = 255; //Highest permissable value for uint8
 	fmt.Println(num);
 	fmt.Printf("The type of the variable num is: %T\n", num);
+
+	//Floating type
+	var floatNum float32 = 255.45265525;
+	fmt.Println(floatNum);
+	fmt.Printf("The type of the variable floatNum is: %T\n", floatNum);
 }
