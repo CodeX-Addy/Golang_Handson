@@ -30,4 +30,13 @@ func main() {
 	fmt.Println(number); // It will give 0
 	fmt.Printf("The type of the variable number is: %T\n", number);
 
+	//Other types of declaring the variables
+	//Implicit type
+	var num1 = 2;
+	fmt.Println(num1);
+
+	//Other type
+	name1 := "esoteric";
+	fmt.Println(name1);
+
 }
