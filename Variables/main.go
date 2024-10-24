@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+const Login string = "abcdefgh"; //This is a public variable, in golang, we generally define the public variable name starts with capital letter.
+
 func main() {
 
 	//String type
@@ -38,5 +40,8 @@ func main() {
 	//Other type
 	name1 := "esoteric";
 	fmt.Println(name1);
+
+	fmt.Println(Login);
+	fmt.Printf("The type of the login variable is: %T\n", Login);
 
 }
