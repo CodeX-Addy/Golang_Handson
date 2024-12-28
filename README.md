@@ -9,7 +9,7 @@ This repository contains hands-on exercises, examples, and tutorials for learnin
 3. [Hands-on Topics](#hands-on-topics)
 4. [Running the Code](#running-the-code)
 5. [Contributing](#contributing)
-6. [License](#license)
+
 
 ## Introduction
 Golang is a fast, statically typed, and compiled programming language designed by Google. It’s known for its simplicity, concurrency support, and performance. This repository aims to help developers practice Go concepts through structured hands-on examples.
@@ -92,9 +92,6 @@ Contributions are welcome! To contribute:
    ```
 5. Open a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as per the license terms.
 
 ---
 
