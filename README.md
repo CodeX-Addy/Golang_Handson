@@ -80,7 +80,7 @@ Contributions are welcome! To contribute:
 1. Fork the repository.
 2. Create a new branch for your feature or bugfix:
    ```bash
-   git checkout -b feature-name
+   git checkout -b branch-name
    ```
 3. Commit your changes:
    ```bash
@@ -88,7 +88,7 @@ Contributions are welcome! To contribute:
    ```
 4. Push your branch:
    ```bash
-   git push origin feature-name
+   git push origin branch-name
    ```
 5. Open a pull request.
 
