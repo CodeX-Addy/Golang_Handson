@@ -5,7 +5,6 @@ import "fmt"
 const Login string = "abcdefgh"; //This is a public variable, in golang, we generally define the public variable name starts with capital letter.
 
 func main() {
-
 	//String type
 	var user string = "Aditya";
 	fmt.Println(user);
