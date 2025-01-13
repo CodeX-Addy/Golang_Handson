@@ -11,4 +11,10 @@ func main(){
 	}else{
 		fmt.Println("Odd")
 	}
+
+	// For Loop
+	for i:=1; i<=10; i++{
+		fmt.Println(i);
+	}
+
 }
