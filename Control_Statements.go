@@ -17,4 +17,16 @@ func main(){
 		fmt.Println(i);
 	}
 
+	//Switch case
+	a := 6
+	
+	switch a{
+	case 1:
+		fmt.Println("One");
+	case 6:
+		fmt.Println("Six");
+	default:
+		fmt.Println("Another Number");
+	}
+
 }
