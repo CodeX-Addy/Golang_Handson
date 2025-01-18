@@ -1,3 +1,5 @@
+//Using pointers in functions
+
 package main
 
 import "fmt"
@@ -13,5 +15,4 @@ func main(){
 	change(&x);
 
 	fmt.Println("After:", x);
-
 }
