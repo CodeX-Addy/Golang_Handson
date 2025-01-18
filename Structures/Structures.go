@@ -2,7 +2,8 @@ package main
 
 import "fmt"
 
-//Struct defining way
+//Defining struct
+
 type Person struct{
 	Name string
 	Age int
@@ -10,10 +11,10 @@ type Person struct{
 
 //Method for struct
 func (p Person) Greet(){
-	fmt.Printf("Hello my name is %s and age is %d", p.Name,p.Age);
+	fmt.Printf("Hey My Name is %s and I am %d years old", p.Name, p.Age);
 }
 
 func main(){
-	p := Person{Name:"Aditya", Age:22};
+	p := Person{Name: "Aditya", Age: 22};
 	p.Greet();
 }
