@@ -8,7 +8,7 @@ import (
 	"sync"
 )
 
-// Item represents a simple item structure
+/// Item representing a simple item structure
 type Item struct {
 	ID    int    `json:"id"`
 	Name  string `json:"name"`
@@ -16,12 +16,12 @@ type Item struct {
 }
 
 var (
-	items  = []Item{} // In-memory storage for items
-	mutex  sync.Mutex // Mutex to handle concurrent access
-	nextID = 1        // Auto-increment ID for items
+	items  = []Item{} /// In-memory storage for items
+	mutex  sync.Mutex /// Mutex to handle concurrent access
+	nextID = 1        /// Auto-increment ID for items
 )
 
-// Handlers
+/// Handlers
 func getItems(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(items)
