@@ -24,7 +24,7 @@ Follow these steps to set up your development environment for working with this 
 
 2. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/golang-handson.git
+   git clone https://github.com/CodeX-Addy/golang-handson.git
    cd golang-handson
    ```
 
