@@ -2,14 +2,14 @@ package main
 
 import "fmt"
 
-//Defining struct
+// Defining struct
 
 type Person struct{
 	Name string
 	Age int
 }
 
-//Method for struct
+// Method for struct
 func (p Person) Greet(){
 	fmt.Printf("Hey My Name is %s and I am %d years old", p.Name, p.Age);
 }
