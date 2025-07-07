@@ -19,7 +19,7 @@ Golang is a fast, statically typed, and compiled programming language designed b
 Follow these steps to set up your development environment for working with this repository:
 
 1. **Install Go**
-   - Download and install Go from the [official Go website](https://golang.org/dl/).
+   - Download and install Go from the official [Go website](https://golang.org/dl/).
    - Verify the installation by running `go version` in your terminal.
 
 2. **Clone the Repository**
