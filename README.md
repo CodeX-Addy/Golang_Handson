@@ -64,7 +64,7 @@ Follow these steps to set up your development environment for working with this 
 To run any Go file, navigate to the specific directory and execute:
 
 ```bash
-go run filename.go
+go run your_filename.go
 ```
 
 To run tests:
