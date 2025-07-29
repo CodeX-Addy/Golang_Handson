@@ -1,6 +1,6 @@
 # Golang Hands-on
 
-This repository contains hands-on exercises, examples, and tutorials for learning and working with the Go programming language (Golang). It’s designed for beginners to intermediate developers who want to deepen their understanding of Go by working on practical projects and exploring its core features.
+This repository contains hands-on exercises, examples, and tutorials for learning and working with the Golang. It’s designed for beginners to intermediate developers who want to deepen their understanding of Go by working on practical projects and exploring its core features.
 
 ## Table of Contents
 
