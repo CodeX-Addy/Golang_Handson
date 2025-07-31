@@ -15,5 +15,5 @@ func printNumbers() {
 func main() {
     go printNumbers();
     fmt.Println("Goroutine started");
-    time.Sleep(3 * time.Second);
+    time.Sleep(4 * time.Second);
 }
