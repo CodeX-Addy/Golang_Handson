@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 // Defining struct
-
 type Person struct{
 	Name string
 	Age int
