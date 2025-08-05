@@ -2,10 +2,11 @@ package main
 
 import "fmt"
 
-const Login string = "abcdefgh"; //This is a public variable, in golang, we generally define the public variable name starts with capital letter.
+// This is a public variable, in golang, we generally define the public variable name starts with capital letter.
+const Login string = "abcdefgh"; 
 
 func main() {
-	//String type
+	// String type
 	var user string = "Aditya";
 	fmt.Println(user);
 	fmt.Printf("The type of the variable user is: %T\n", user);
