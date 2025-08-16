@@ -1,4 +1,4 @@
-//Using pointers in functions
+// Using pointers in functions
 
 package main
 
@@ -11,8 +11,6 @@ func change(x* int){
 func main(){
 	x := 10;
 	fmt.Println("Before:", x);
-
 	change(&x);
-
 	fmt.Println("After:", x);
 }
