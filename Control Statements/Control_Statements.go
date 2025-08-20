@@ -18,12 +18,12 @@ func main(){
 	}
 
 	//Switch case
-	a := 6
+	a := 7
 	
 	switch a{
 	case 1:
 		fmt.Println("One");
-	case 6:
+	case 7:
 		fmt.Println("Six");
 	default:
 		fmt.Println("Another Number");
